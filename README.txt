@@ -1,0 +1,1 @@
+MPLABX and Proteus files are stored in the same folder.
