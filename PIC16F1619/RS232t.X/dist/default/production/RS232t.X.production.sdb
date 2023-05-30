@@ -1,0 +1,464 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1619 ]
+[d frameptr 6 ]
+"52 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X/flex_lcd.h
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"94
+[v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
+"115
+[v _Lcd_Out2 Lcd_Out2 `(v  1 e 1 0 ]
+"136
+[v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
+"150
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"152 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"1029
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1546
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"18 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X\main.c
+[v _TMR0_Timer TMR0_Timer `(v  1 e 1 0 ]
+"25
+[v _TMR1_Counter TMR1_Counter `(v  1 e 1 0 ]
+"37
+[v _TMR2_PWM TMR2_PWM `(v  1 e 1 0 ]
+"43
+[v _ISR_TIMER0 ISR_TIMER0 `II(v  1 e 1 0 ]
+"54
+[v _main main `(v  1 e 1 0 ]
+[s S82 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:\Program Files\Microchip\xc8\v2.41\pic\include\proc\pic16f1619.h
+[s S91 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S96 . 1 `S82 1 . 1 0 `S91 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES96  1 e 1 @11 ]
+"429
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"479
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"518
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+[s S43 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"535
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES52  1 e 1 @14 ]
+[s S161 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"597
+[u S170 . 1 `S161 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES170  1 e 1 @16 ]
+"868
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"888
+[v _TMR1 TMR1 `VEus  1 e 2 @22 ]
+"935
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S114 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"1022
+[s S122 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S125 . 1 `S114 1 . 1 0 `S122 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES125  1 e 1 @25 ]
+"1077
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1131
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1180
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1614
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1664
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1703
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1720
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @142 ]
+"2053
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"2198
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+[s S182 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"2278
+[s S187 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+]
+[u S195 . 1 `S182 1 . 1 0 `S187 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES195  1 e 1 @153 ]
+[s S146 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2695
+[u S152 . 1 `S146 1 . 1 0 ]
+[v _LATBbits LATBbits `VES152  1 e 1 @269 ]
+"3331
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3378
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3417
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"6243
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"6283
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"21349
+[v _T1CKIPPS T1CKIPPS `VEuc  1 e 1 @3602 ]
+"23285
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3750 ]
+"118 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"119
+[v _flags flags `uc  1 s 1 flags ]
+"144
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"13 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X\main.c
+[v _buffer1 buffer1 `[20]uc  1 e 20 0 ]
+[v _buffer2 buffer2 `[20]uc  1 e 20 0 ]
+"15
+[v _Freq Freq `i  1 e 2 0 ]
+"54
+[v _main main `(v  1 e 1 0 ]
+{
+"119
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[u S642 . 2 `*.39uc 1 buffer 2 0 `*.39DCuc 1 source 2 0 ]
+"13
+[s S645 _IO_FILE 11 `S642 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S645  1 a 11 52 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 50 ]
+"9
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[v sprintf@fmt fmt `*.25DCuc  1 p 2 45 ]
+"15
+[v sprintf@s s `*.4uc  1 a 1 51 ]
+"23
+} 0
+"1546 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S677 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.4S677  1 a 1 wreg ]
+"1549
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 43 ]
+"1546
+[v vfprintf@fp fp `*.4S677  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 38 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 40 ]
+"1551
+"1546
+[v vfprintf@fp fp `*.4S677  1 a 1 42 ]
+"1569
+} 0
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S677 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.4S677  1 a 1 wreg ]
+[u S701 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `*.39v 1 vp 2 0 `d 1 f 4 0 ]
+"1059
+[v vfpfcnvrt@convarg convarg `S701  1 a 4 29 ]
+"1050
+[v vfpfcnvrt@cp cp `*.25uc  1 a 2 36 ]
+"1051
+[v vfpfcnvrt@done done `i  1 a 2 33 ]
+"1048
+[v vfpfcnvrt@fp fp `*.4S677  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 23 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 24 ]
+"1062
+"1048
+[v vfpfcnvrt@fp fp `*.4S677  1 a 1 35 ]
+"1543
+} 0
+"1029
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+[v read_prec_or_width@fmt fmt `*.4*.25DCuc  1 a 1 wreg ]
+"1035
+[v read_prec_or_width@c c `uc  1 a 1 0 ]
+"1030
+[v read_prec_or_width@n n `i  1 a 2 1 ]
+"1029
+[v read_prec_or_width@fmt fmt `*.4*.25DCuc  1 a 1 wreg ]
+[v read_prec_or_width@ap ap `*.4[1]*.4v  1 p 1 6 ]
+[v read_prec_or_width@fmt fmt `*.4*.25DCuc  1 a 1 3 ]
+"1042
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"470 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+[s S677 _IO_FILE 0 ]
+[v dtoa@fp fp `*.4S677  1 a 1 wreg ]
+"473
+[v dtoa@i i `i  1 a 2 20 ]
+[v dtoa@w w `i  1 a 2 18 ]
+[v dtoa@p p `i  1 a 2 16 ]
+"472
+[v dtoa@s s `uc  1 a 1 22 ]
+"470
+[v dtoa@fp fp `*.4S677  1 a 1 wreg ]
+[v dtoa@d d `i  1 p 2 10 ]
+"476
+"470
+[v dtoa@fp fp `*.4S677  1 a 1 15 ]
+"527
+} 0
+"152
+[v _pad pad `(v  1 s 1 pad ]
+{
+[s S677 _IO_FILE 0 ]
+[v pad@fp fp `*.4S677  1 a 1 wreg ]
+"154
+[v pad@w w `i  1 a 2 7 ]
+[v pad@i i `i  1 a 2 5 ]
+"152
+[v pad@fp fp `*.4S677  1 a 1 wreg ]
+[v pad@buf buf `*.4uc  1 p 1 11 ]
+[v pad@p p `i  1 p 2 12 ]
+"158
+"152
+[v pad@fp fp `*.4S677  1 a 1 9 ]
+"183
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+[u S642 . 2 `*.39uc 1 buffer 2 0 `*.39DCuc 1 source 2 0 ]
+[s S645 _IO_FILE 11 `S642 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.4S645  1 p 1 8 ]
+"13
+[v fputs@s s `*.4DCuc  1 a 1 3 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S642 . 2 `*.39uc 1 buffer 2 0 `*.39DCuc 1 source 2 0 ]
+[s S645 _IO_FILE 11 `S642 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.4S645  1 p 1 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 7 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"37 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X\main.c
+[v _TMR2_PWM TMR2_PWM `(v  1 e 1 0 ]
+{
+"41
+} 0
+"25
+[v _TMR1_Counter TMR1_Counter `(v  1 e 1 0 ]
+{
+"35
+} 0
+"18
+[v _TMR0_Timer TMR0_Timer `(v  1 e 1 0 ]
+{
+"23
+} 0
+"115 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X/flex_lcd.h
+[v _Lcd_Out2 Lcd_Out2 `(v  1 e 1 0 ]
+{
+[v Lcd_Out2@y y `uc  1 a 1 wreg ]
+"117
+[v Lcd_Out2@data data `uc  1 a 1 9 ]
+"115
+[v Lcd_Out2@y y `uc  1 a 1 wreg ]
+[v Lcd_Out2@x x `uc  1 p 1 3 ]
+[v Lcd_Out2@buffer buffer `*.26uc  1 p 2 4 ]
+[v Lcd_Out2@y y `uc  1 a 1 8 ]
+"133
+} 0
+"94
+[v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
+{
+[v Lcd_Out@y y `uc  1 a 1 wreg ]
+"96
+[v Lcd_Out@data data `uc  1 a 1 9 ]
+"94
+[v Lcd_Out@y y `uc  1 a 1 wreg ]
+[v Lcd_Out@x x `uc  1 p 1 3 ]
+[v Lcd_Out@buffer buffer `*.25DCuc  1 p 2 4 ]
+[v Lcd_Out@y y `uc  1 a 1 8 ]
+"112
+} 0
+"136
+[v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
+{
+[v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
+[v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
+[v Lcd_Chr_CP@data data `uc  1 a 1 2 ]
+"147
+} 0
+"52
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"53
+[v Lcd_Init@data data `uc  1 a 1 4 ]
+"91
+} 0
+"150
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@data data `uc  1 a 1 wreg ]
+[v Lcd_Cmd@data data `uc  1 a 1 wreg ]
+[v Lcd_Cmd@data data `uc  1 a 1 2 ]
+"161
+} 0
+"43 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\RS232t.X\main.c
+[v _ISR_TIMER0 ISR_TIMER0 `II(v  1 e 1 0 ]
+{
+"51
+} 0

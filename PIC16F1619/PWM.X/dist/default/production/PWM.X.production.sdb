@@ -1,0 +1,301 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1619 ]
+[d frameptr 6 ]
+"88 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/tmr2.c
+[e E9633 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E9656 . `uc
+TMR2_T2IN 0
+TMR2_C1_OUT_SYNC 1
+TMR2_C2_OUT_SYNC 2
+TMR2_CCP1_OUT 3
+TMR2_CCP2_OUT 4
+TMR2_RESERVED 5
+TMR2_T4POSTSCALED 6
+TMR2_T6POSTSCALED 7
+TMR2_ZCD1_OUTPUT 8
+TMR2_CLC1_OUT 9
+TMR2_CLC2_OUT 10
+TMR2_CLC3_OUT 11
+TMR2_CLC4_OUT 12
+TMR2_PWM3_OUT 13
+TMR2_PWM4_OUT 14
+]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"49 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+"62 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+[s S87 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"597 C:\Program Files\Microchip\xc8\v2.41\pic\include\proc\pic16f1619.h
+[u S96 . 1 `S87 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES96  1 e 1 @16 ]
+"1072
+[v _T2TMR T2TMR `VEuc  1 e 1 @26 ]
+"1077
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1126
+[v _T2PR T2PR `VEuc  1 e 1 @27 ]
+"1131
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1180
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S231 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"1216
+[s S235 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+[s S243 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S247 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S256 . 1 `S231 1 . 1 0 `S235 1 . 1 0 `S243 1 . 1 0 `S247 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES256  1 e 1 @28 ]
+"1326
+[v _T2HLT T2HLT `VEuc  1 e 1 @29 ]
+[s S131 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"1359
+[s S136 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S142 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S147 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S153 . 1 `S131 1 . 1 0 `S136 1 . 1 0 `S142 1 . 1 0 `S147 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES153  1 e 1 @29 ]
+"1454
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @30 ]
+"1534
+[v _T2RST T2RST `VEuc  1 e 1 @31 ]
+[s S197 . 1 `uc 1 RSEL 1 0 :4:0 
+]
+"1559
+[s S199 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+]
+[s S204 . 1 `uc 1 T2RSEL 1 0 :4:0 
+]
+[s S206 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+]
+[u S211 . 1 `S197 1 . 1 0 `S199 1 . 1 0 `S204 1 . 1 0 `S206 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES211  1 e 1 @31 ]
+"1614
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1664
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1703
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S366 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"2076
+[s S373 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S380 . 1 `S366 1 . 1 0 `S373 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES380  1 e 1 @149 ]
+"2198
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2256
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2631
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2681
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2720
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"3056
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3331
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3378
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3417
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4525
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4583
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4622
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"6090
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6135
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6174
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+[s S25 . 1 `uc 1 CCP1TSEL 1 0 :2:0 
+`uc 1 CCP2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"6725
+[s S30 . 1 `uc 1 CCP1TSEL0 1 0 :1:0 
+`uc 1 CCP1TSEL1 1 0 :1:1 
+`uc 1 CCP2TSEL0 1 0 :1:2 
+`uc 1 CCP2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S39 . 1 `S25 1 . 1 0 `S30 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES39  1 e 1 @670 ]
+"6790
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6835
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6874
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6936
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6986
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7025
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"11831
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @1559 ]
+"11897
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @1560 ]
+"12067
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @1561 ]
+"23021
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"49 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+[v main@DC DC `us  1 a 2 5 ]
+"83
+} 0
+"50 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"62 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"58 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"55 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"58 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"74 C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\PWM.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"81
+} 0
