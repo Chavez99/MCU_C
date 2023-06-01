@@ -11,46 +11,46 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 28 28 2 2 1
+config CONFIG 4 8007 8007 3 2 1
 $dist/default/production\TMR1Counter.production.o
 cinit CODE 0 2A 2A 14 2 1
-text1 CODE 0 668 668 1D 2 1
-text2 CODE 0 685 685 1C 2 1
-text3 CODE 0 1B2 1B2 9B 2 1
-text4 CODE 0 40F 40F 60 2 1
-text5 CODE 0 649 649 1F 2 1
-text6 CODE 0 F9 F9 B9 2 1
-text7 CODE 0 571 571 45 2 1
-text8 CODE 0 625 625 24 2 1
-text9 CODE 0 521 521 50 2 1
-text10 CODE 0 729 729 1 2 1
-text11 CODE 0 6A1 6A1 1A 2 1
-text12 CODE 0 4CE 4CE 53 2 1
-text13 CODE 0 46F 46F 5F 2 1
-text14 CODE 0 725 725 4 2 1
-text15 CODE 0 6F6 6F6 C 2 1
-text16 CODE 0 6D1 6D1 D 2 1
-text17 CODE 0 702 702 B 2 1
-text18 CODE 0 70D 70D B 2 1
-text19 CODE 0 5F7 5F7 2E 2 1
-text20 CODE 0 718 718 7 2 1
-text21 CODE 0 6BB 6BB 16 2 1
-text22 CODE 0 5B6 5B6 41 2 1
-text23 CODE 0 2E6 2E6 96 2 1
-text24 CODE 0 24D 24D 99 2 1
-text25 CODE 0 37C 37C 93 2 1
-maintext CODE 0 3E 3E BB 2 1
+text1 CODE 0 66C 66C 1D 2 1
+text2 CODE 0 689 689 1C 2 1
+text3 CODE 0 1B6 1B6 9B 2 1
+text4 CODE 0 413 413 60 2 1
+text5 CODE 0 64D 64D 1F 2 1
+text6 CODE 0 FD FD B9 2 1
+text7 CODE 0 575 575 45 2 1
+text8 CODE 0 629 629 24 2 1
+text9 CODE 0 525 525 50 2 1
+text10 CODE 0 72D 72D 1 2 1
+text11 CODE 0 6A5 6A5 1A 2 1
+text12 CODE 0 4D2 4D2 53 2 1
+text13 CODE 0 473 473 5F 2 1
+text14 CODE 0 729 729 4 2 1
+text15 CODE 0 6FA 6FA C 2 1
+text16 CODE 0 6D5 6D5 D 2 1
+text17 CODE 0 706 706 B 2 1
+text18 CODE 0 711 711 B 2 1
+text19 CODE 0 5FB 5FB 2E 2 1
+text20 CODE 0 71C 71C 7 2 1
+text21 CODE 0 6BF 6BF 16 2 1
+text22 CODE 0 5BA 5BA 41 2 1
+text23 CODE 0 2EA 2EA 96 2 1
+text24 CODE 0 251 251 99 2 1
+text25 CODE 0 380 380 93 2 1
+maintext CODE 0 3E 3E BF 2 1
 cstackCOMMON COMMON 1 70 70 E 1 1
 cstackBANK0 BANK0 1 20 20 45 1 1
-stringtext1 STRCODE 0 6DE 6DE C 2 1
-stringtext2 STRCODE 0 6EA 6EA C 2 1
+stringtext1 STRCODE 0 6E2 6E2 C 2 1
+stringtext2 STRCODE 0 6EE 6EE C 2 1
 intentry CODE 0 4 4 24 2 1
 bssBANK0 BANK0 1 65 65 B 1 1
 bssBANK1 BANK1 1 A0 A0 4C 1 1
-clrtext CODE 0 71F 71F 6 2 1
-config CONFIG 4 8007 8007 3 2 1
-$C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-reset_vec CODE 0 0 0 2 2 1
-end_init CODE 0 28 28 2 2 1
+clrtext CODE 0 723 723 6 2 1
 config CONFIG 4 8007 8007 3 2 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -80,9 +80,9 @@ BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
 CONST 2-3 2
-CONST 72A-1FFF 2
+CONST 72E-1FFF 2
 ENTRY 2-3 2
-ENTRY 72A-1FFF 2
+ENTRY 72E-1FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
 SFR11 580-59F 1
@@ -107,7 +107,7 @@ SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
 CODE 2-3 2
-CODE 72A-1FFF 2
+CODE 72E-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-11F 1
@@ -123,9 +123,9 @@ BANK11 5A0-5EF 1
 BANK12 620-64F 1
 BIGRAM 2000-23EF 1
 STRCODE 2-3 2
-STRCODE 72A-1FFF 2
+STRCODE 72E-1FFF 2
 STRING 2-3 2
-STRING 72A-1FFF 2
+STRING 72E-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -140,24 +140,24 @@ STRING 72A-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\TMR1Counter.production.o
-2A cinit CODE >4740:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2A cinit CODE >4743:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2A cinit CODE >4797:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2B cinit CODE >4798:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2C cinit CODE >4799:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2D cinit CODE >4800:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2E cinit CODE >4801:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-2F cinit CODE >4802:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-32 cinit CODE >4806:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-33 cinit CODE >4807:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-34 cinit CODE >4808:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-35 cinit CODE >4809:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-36 cinit CODE >4810:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-37 cinit CODE >4811:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-3A cinit CODE >4817:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-3A cinit CODE >4819:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-3B cinit CODE >4820:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-3C cinit CODE >4821:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
+2A cinit CODE >4740:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2A cinit CODE >4743:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2A cinit CODE >4797:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2B cinit CODE >4798:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2C cinit CODE >4799:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2D cinit CODE >4800:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2E cinit CODE >4801:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+2F cinit CODE >4802:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+32 cinit CODE >4806:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+33 cinit CODE >4807:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+34 cinit CODE >4808:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+35 cinit CODE >4809:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+36 cinit CODE >4810:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+37 cinit CODE >4811:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+3A cinit CODE >4817:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+3A cinit CODE >4819:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+3B cinit CODE >4820:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+3C cinit CODE >4821:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
 4 intentry CODE >32:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 6 intentry CODE >33:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 A intentry CODE >34:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
@@ -167,337 +167,337 @@ D intentry CODE >34:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1C
 23 intentry CODE >37:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 25 intentry CODE >38:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 26 intentry CODE >40:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-37C text25 CODE >150:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-37D text25 CODE >151:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-380 text25 CODE >152:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-39D text25 CODE >153:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3BE text25 CODE >154:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3C2 text25 CODE >155:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3C9 text25 CODE >156:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3E6 text25 CODE >157:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3FB text25 CODE >158:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-3FF text25 CODE >159:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-406 text25 CODE >160:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-40E text25 CODE >161:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-24D text24 CODE >52:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-24D text24 CODE >54:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-24F text24 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-250 text24 CODE >56:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-251 text24 CODE >57:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-252 text24 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-253 text24 CODE >59:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-254 text24 CODE >60:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-256 text24 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-257 text24 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-258 text24 CODE >63:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-259 text24 CODE >64:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-25A text24 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-25B text24 CODE >66:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-263 text24 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-26B text24 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-273 text24 CODE >69:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-27B text24 CODE >70:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-283 text24 CODE >71:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-28B text24 CODE >72:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-28D text24 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-293 text24 CODE >75:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-298 text24 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-29A text24 CODE >77:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-29D text24 CODE >78:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2A3 text24 CODE >79:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2A4 text24 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2AC text24 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2B2 text24 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2B6 text24 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2BD text24 CODE >83:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2C3 text24 CODE >84:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2C6 text24 CODE >85:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2CD text24 CODE >86:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2D5 text24 CODE >87:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2D9 text24 CODE >88:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2DD text24 CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2E1 text24 CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2E5 text24 CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2E6 text23 CODE >136:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2E7 text23 CODE >137:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-2EA text23 CODE >138:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-307 text23 CODE >139:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-328 text23 CODE >140:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-32C text23 CODE >141:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-333 text23 CODE >142:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-350 text23 CODE >143:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-365 text23 CODE >144:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-369 text23 CODE >145:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-370 text23 CODE >146:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-37B text23 CODE >147:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5B6 text22 CODE >115:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5B7 text22 CODE >118:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5B8 text22 CODE >120:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5BC text22 CODE >121:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5C0 text22 CODE >122:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5C4 text22 CODE >123:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5C8 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5CD text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5D2 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5D5 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5D8 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5DB text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5DE text22 CODE >126:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5E2 text22 CODE >127:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5E3 text22 CODE >129:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5EA text22 CODE >130:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5EE text22 CODE >127:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-5F6 text22 CODE >133:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
-6BB text21 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-6BB text21 CODE >77:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-6C6 text21 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-6CC text21 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-6D0 text21 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-718 text20 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-718 text20 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-71B text20 CODE >63:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-71C text20 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-71E text20 CODE >66:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-5F7 text19 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-5F7 text19 CODE >60:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-5F9 text19 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-5FA text19 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-5FB text19 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-5FE text19 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-600 text19 CODE >69:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-602 text19 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-605 text19 CODE >75:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-607 text19 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-609 text19 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-60B text19 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-60C text19 CODE >83:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-60D text19 CODE >84:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-60F text19 CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-611 text19 CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-612 text19 CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-613 text19 CODE >96:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-616 text19 CODE >97:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-618 text19 CODE >98:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-61A text19 CODE >103:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-61D text19 CODE >104:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-61F text19 CODE >105:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-621 text19 CODE >114:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-624 text19 CODE >115:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
-70D text18 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-70D text18 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-710 text18 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-712 text18 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-714 text18 CODE >71:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-717 text18 CODE >72:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
-702 text17 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-702 text17 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-704 text17 CODE >70:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-705 text17 CODE >73:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-706 text17 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-708 text17 CODE >79:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-709 text17 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-70A text17 CODE >85:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-70C text17 CODE >86:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
-6D1 text16 CODE >50:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6D1 text16 CODE >52:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6D4 text16 CODE >53:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6D7 text16 CODE >54:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6DA text16 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6DD text16 CODE >56:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
-6F6 text15 CODE >20:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-6F6 text15 CODE >21:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-6F9 text15 CODE >22:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-6FC text15 CODE >23:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-6FF text15 CODE >24:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-700 text15 CODE >25:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-701 text15 CODE >26:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-725 text14 CODE >28:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-725 text14 CODE >29:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-728 text14 CODE >30:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-46F text13 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-46F text13 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-470 text13 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-474 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-477 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-479 text13 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-47B text13 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-47F text13 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-482 text13 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-484 text13 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-488 text13 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-48A text13 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-490 text13 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-492 text13 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-493 text13 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-498 text13 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-49C text13 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4A0 text13 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4A5 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4A7 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+380 text25 CODE >150:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+381 text25 CODE >151:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+384 text25 CODE >152:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3A1 text25 CODE >153:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3C2 text25 CODE >154:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3C6 text25 CODE >155:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3CD text25 CODE >156:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3EA text25 CODE >157:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+3FF text25 CODE >158:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+403 text25 CODE >159:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+40A text25 CODE >160:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+412 text25 CODE >161:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+251 text24 CODE >52:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+251 text24 CODE >54:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+253 text24 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+254 text24 CODE >56:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+255 text24 CODE >57:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+256 text24 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+257 text24 CODE >59:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+258 text24 CODE >60:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25A text24 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25B text24 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25C text24 CODE >63:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25D text24 CODE >64:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25E text24 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+25F text24 CODE >66:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+267 text24 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+26F text24 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+277 text24 CODE >69:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+27F text24 CODE >70:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+287 text24 CODE >71:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+28F text24 CODE >72:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+291 text24 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+297 text24 CODE >75:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+29C text24 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+29E text24 CODE >77:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2A1 text24 CODE >78:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2A7 text24 CODE >79:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2A8 text24 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2B0 text24 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2B6 text24 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2BA text24 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2C1 text24 CODE >83:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2C7 text24 CODE >84:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2CA text24 CODE >85:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2D1 text24 CODE >86:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2D9 text24 CODE >87:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2DD text24 CODE >88:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2E1 text24 CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2E5 text24 CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2E9 text24 CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2EA text23 CODE >136:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2EB text23 CODE >137:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+2EE text23 CODE >138:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+30B text23 CODE >139:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+32C text23 CODE >140:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+330 text23 CODE >141:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+337 text23 CODE >142:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+354 text23 CODE >143:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+369 text23 CODE >144:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+36D text23 CODE >145:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+374 text23 CODE >146:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+37F text23 CODE >147:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5BA text22 CODE >115:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5BB text22 CODE >118:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5BC text22 CODE >120:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5C0 text22 CODE >121:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5C4 text22 CODE >122:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5C8 text22 CODE >123:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5CC text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5D1 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5D6 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5D9 text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5DC text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5DF text22 CODE >125:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5E2 text22 CODE >126:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5E6 text22 CODE >127:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5E7 text22 CODE >129:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5EE text22 CODE >130:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5F2 text22 CODE >127:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+5FA text22 CODE >133:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter/flex_lcd.h
+6BF text21 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+6BF text21 CODE >77:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+6CA text21 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+6D0 text21 CODE >80:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+6D4 text21 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+71C text20 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+71C text20 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+71F text20 CODE >63:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+720 text20 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+722 text20 CODE >66:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+5FB text19 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+5FB text19 CODE >60:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+5FD text19 CODE >61:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+5FE text19 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+5FF text19 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+602 text19 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+604 text19 CODE >69:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+606 text19 CODE >74:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+609 text19 CODE >75:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+60B text19 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+60D text19 CODE >81:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+60F text19 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+610 text19 CODE >83:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+611 text19 CODE >84:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+613 text19 CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+615 text19 CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+616 text19 CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+617 text19 CODE >96:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+61A text19 CODE >97:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+61C text19 CODE >98:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+61E text19 CODE >103:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+621 text19 CODE >104:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+623 text19 CODE >105:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+625 text19 CODE >114:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+628 text19 CODE >115:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pin_manager.c
+711 text18 CODE >58:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+711 text18 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+714 text18 CODE >65:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+716 text18 CODE >68:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+718 text18 CODE >71:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+71B text18 CODE >72:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/pwm3.c
+706 text17 CODE >62:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+706 text17 CODE >67:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+708 text17 CODE >70:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+709 text17 CODE >73:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+70A text17 CODE >76:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+70C text17 CODE >79:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+70D text17 CODE >82:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+70E text17 CODE >85:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+710 text17 CODE >86:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/tmr2.c
+6D5 text16 CODE >50:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6D5 text16 CODE >52:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6D8 text16 CODE >53:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6DB text16 CODE >54:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6DE text16 CODE >55:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6E1 text16 CODE >56:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\mcc_generated_files/mcc.c
+6FA text15 CODE >20:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+6FA text15 CODE >21:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+6FD text15 CODE >22:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+700 text15 CODE >23:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+703 text15 CODE >24:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+704 text15 CODE >25:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+705 text15 CODE >26:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+729 text14 CODE >28:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+729 text14 CODE >29:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+72C text14 CODE >30:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+473 text13 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+473 text13 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+474 text13 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+478 text13 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+47B text13 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+47D text13 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+47F text13 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+483 text13 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+486 text13 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+488 text13 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+48C text13 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+48E text13 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+494 text13 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+496 text13 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+497 text13 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+49C text13 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4A0 text13 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4A4 text13 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4A9 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
 4AB text13 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4AF text13 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4B3 text13 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4B4 text13 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4B9 text13 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4BF text13 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4C4 text13 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4C7 text13 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4C9 text13 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4CD text13 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
-4CE text12 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4CE text12 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4CF text12 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4D3 text12 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4D6 text12 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4D8 text12 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4DA text12 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4DE text12 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4E1 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4E3 text12 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4E9 text12 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4EB text12 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4EC text12 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4F1 text12 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4F5 text12 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4F9 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-4FB text12 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4AF text13 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4B3 text13 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4B7 text13 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4B8 text13 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4BD text13 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C3 text13 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C8 text13 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4CB text13 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4CD text13 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4D1 text13 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4D2 text12 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4D2 text12 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4D3 text12 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4D7 text12 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4DA text12 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4DC text12 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4DE text12 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4E2 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4E5 text12 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4E7 text12 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4ED text12 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4EF text12 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4F0 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4F5 text12 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4F9 text12 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4FD text12 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
 4FF text12 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-503 text12 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-507 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-50C text12 CODE >29:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-512 text12 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-517 text12 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-51A text12 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-51C text12 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-520 text12 CODE >34:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
-6A1 text11 CODE >1:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
-6A1 text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
-6A6 text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+503 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+507 text12 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+50B text12 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+510 text12 CODE >29:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+516 text12 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+51B text12 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+51E text12 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+520 text12 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+524 text12 CODE >34:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+6A5 text11 CODE >1:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+6A5 text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
 6AA text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
-6B3 text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
-6BA text11 CODE >4:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
-729 text10 CODE >7:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
-729 text10 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
-521 text9 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-521 text9 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-52B text9 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-52F text9 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-530 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-550 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+6AE text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+6B7 text11 CODE >3:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+6BE text11 CODE >4:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+72D text10 CODE >7:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+72D text10 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+525 text9 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+525 text9 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+52F text9 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+533 text9 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+534 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
 554 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-558 text9 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-567 text9 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-56E text9 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-570 text9 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
-625 text8 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-627 text8 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-629 text8 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-62A text8 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-636 text8 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-63B text8 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-648 text8 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
-571 text7 CODE >152:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-573 text7 CODE >158:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-577 text7 CODE >159:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-57D text7 CODE >164:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-58A text7 CODE >165:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-58C text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-58D text7 CODE >167:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-597 text7 CODE >168:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-59C text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-5A2 text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+558 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+55C text9 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+56B text9 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+572 text9 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+574 text9 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+629 text8 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+62B text8 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+62D text8 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+62E text8 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+63A text8 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+63F text8 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+64C text8 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+575 text7 CODE >152:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+577 text7 CODE >158:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+57B text7 CODE >159:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+581 text7 CODE >164:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+58E text7 CODE >165:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+590 text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+591 text7 CODE >167:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+59B text7 CODE >168:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+5A0 text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
 5A6 text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-5AA text7 CODE >173:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-5AF text7 CODE >175:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-5B5 text7 CODE >183:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-F9 text6 CODE >470:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-FB text6 CODE >476:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-102 text6 CODE >477:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-107 text6 CODE >478:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-10A text6 CODE >478:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-10C text6 CODE >487:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-119 text6 CODE >488:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-11D text6 CODE >489:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-122 text6 CODE >494:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-126 text6 CODE >495:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-136 text6 CODE >496:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-136 text6 CODE >505:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-13A text6 CODE >506:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-13C text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-13D text6 CODE >512:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-142 text6 CODE >513:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-15B text6 CODE >514:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-160 text6 CODE >515:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-164 text6 CODE >516:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-174 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-17A text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+5AA text7 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+5AE text7 CODE >173:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+5B3 text7 CODE >175:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+5B9 text7 CODE >183:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+FD text6 CODE >470:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+FF text6 CODE >476:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+106 text6 CODE >477:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+10B text6 CODE >478:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+10E text6 CODE >478:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+110 text6 CODE >487:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+11D text6 CODE >488:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+121 text6 CODE >489:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+126 text6 CODE >494:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+12A text6 CODE >495:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+13A text6 CODE >496:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+13A text6 CODE >505:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+13E text6 CODE >506:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+140 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+141 text6 CODE >512:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+146 text6 CODE >513:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+15F text6 CODE >514:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+164 text6 CODE >515:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+168 text6 CODE >516:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+178 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
 17E text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-18E text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+182 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
 192 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-196 text6 CODE >520:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-19C text6 CODE >521:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1A0 text6 CODE >522:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1A6 text6 CODE >526:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1B1 text6 CODE >527:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-649 text5 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-649 text5 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-64B text5 CODE >45:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-64F text5 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-653 text5 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-658 text5 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-65D text5 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-663 text5 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-667 text5 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
-40F text4 CODE >1029:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-411 text4 CODE >1030:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-413 text4 CODE >1031:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-424 text4 CODE >1032:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-42A text4 CODE >1032:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-42C text4 CODE >1033:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-438 text4 CODE >1034:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-439 text4 CODE >1037:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-44E text4 CODE >1038:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-454 text4 CODE >1038:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-456 text4 CODE >1036:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-466 text4 CODE >1036:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-46A text4 CODE >1041:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-46E text4 CODE >1042:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1B2 text3 CODE >1048:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1B4 text3 CODE >1062:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1C5 text3 CODE >1063:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1CB text3 CODE >1063:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1CD text3 CODE >1065:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1CF text3 CODE >1065:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1D4 text3 CODE >1066:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1D8 text3 CODE >1117:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1E3 text3 CODE >1118:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1E7 text3 CODE >1119:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1E8 text3 CODE >1120:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1EB text3 CODE >1120:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1ED text3 CODE >1143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-1F4 text3 CODE >1213:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-208 text3 CODE >1256:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-214 text3 CODE >1258:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-221 text3 CODE >1259:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-22A text3 CODE >1535:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-231 text3 CODE >1535:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-234 text3 CODE >1540:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-24C text3 CODE >1543:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-685 text2 CODE >1546:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-687 text2 CODE >1551:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-68B text2 CODE >1555:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-68C text2 CODE >1559:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-694 text2 CODE >1555:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-69E text2 CODE >1564:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-6A0 text2 CODE >1569:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
-668 text1 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-66A text1 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-66C text1 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-66E text1 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-670 text1 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-672 text1 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-67C text1 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
-684 text1 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+196 text6 CODE >507:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+19A text6 CODE >520:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1A0 text6 CODE >521:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1A4 text6 CODE >522:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1AA text6 CODE >526:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1B5 text6 CODE >527:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+64D text5 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+64D text5 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+64F text5 CODE >45:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+653 text5 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+657 text5 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+65C text5 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+661 text5 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+667 text5 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+66B text5 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+413 text4 CODE >1029:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+415 text4 CODE >1030:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+417 text4 CODE >1031:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+428 text4 CODE >1032:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+42E text4 CODE >1032:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+430 text4 CODE >1033:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+43C text4 CODE >1034:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+43D text4 CODE >1037:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+452 text4 CODE >1038:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+458 text4 CODE >1038:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+45A text4 CODE >1036:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+46A text4 CODE >1036:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+46E text4 CODE >1041:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+472 text4 CODE >1042:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1B6 text3 CODE >1048:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1B8 text3 CODE >1062:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1C9 text3 CODE >1063:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1CF text3 CODE >1063:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1D1 text3 CODE >1065:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1D3 text3 CODE >1065:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1D8 text3 CODE >1066:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1DC text3 CODE >1117:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1E7 text3 CODE >1118:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1EB text3 CODE >1119:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1EC text3 CODE >1120:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1EF text3 CODE >1120:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1F1 text3 CODE >1143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+1F8 text3 CODE >1213:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+20C text3 CODE >1256:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+218 text3 CODE >1258:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+225 text3 CODE >1259:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+22E text3 CODE >1535:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+235 text3 CODE >1535:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+238 text3 CODE >1540:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+250 text3 CODE >1543:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+689 text2 CODE >1546:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+68B text2 CODE >1551:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+68F text2 CODE >1555:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+690 text2 CODE >1559:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+698 text2 CODE >1555:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+6A2 text2 CODE >1564:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+6A4 text2 CODE >1569:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+66C text1 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+66E text1 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+670 text1 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+672 text1 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+674 text1 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+676 text1 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+680 text1 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+688 text1 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
 3E maintext CODE >43:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 3E maintext CODE >44:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 41 maintext CODE >46:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
@@ -526,29 +526,32 @@ FB text6 CODE >476:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\d
 80 maintext CODE >86:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 83 maintext CODE >87:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 85 maintext CODE >88:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-86 maintext CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-93 maintext CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-9B maintext CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-A2 maintext CODE >92:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-A6 maintext CODE >92:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-AD maintext CODE >93:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-AE maintext CODE >94:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-B0 maintext CODE >95:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+87 maintext CODE >89:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+88 maintext CODE >90:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+89 maintext CODE >91:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+8A maintext CODE >92:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+97 maintext CODE >93:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+9F maintext CODE >94:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+A6 maintext CODE >95:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+AA maintext CODE >95:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 B1 maintext CODE >96:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
 B2 maintext CODE >97:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-B6 maintext CODE >99:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-C2 maintext CODE >100:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-D9 maintext CODE >101:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-E1 maintext CODE >102:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-E9 maintext CODE >103:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
-71F clrtext CODE >4786:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-71F clrtext CODE >4787:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-720 clrtext CODE >4788:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-720 clrtext CODE >4789:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-721 clrtext CODE >4790:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-722 clrtext CODE >4791:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-723 clrtext CODE >4792:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
-724 clrtext CODE >4793:C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_1.s
+B4 maintext CODE >98:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+B5 maintext CODE >99:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+B6 maintext CODE >100:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+BA maintext CODE >102:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+C6 maintext CODE >103:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+DD maintext CODE >104:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+E5 maintext CODE >105:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+ED maintext CODE >106:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR1Counter\TMR1Counter\main.c
+723 clrtext CODE >4786:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+723 clrtext CODE >4787:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+724 clrtext CODE >4788:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+724 clrtext CODE >4789:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+725 clrtext CODE >4790:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+726 clrtext CODE >4791:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+727 clrtext CODE >4792:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
+728 clrtext CODE >4793:C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -563,21 +566,21 @@ E9 maintext CODE >103:C:\Users\Arturo\Documents\Resources\X\MCU\C\PIC16F1619\TMR
 %SYMTAB
 ___latbits 2 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 ___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-__Hspace_0 72A 0 ABS 0 - -
+__Hspace_0 72E 0 ABS 0 - -
 __Hspace_1 EC 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10011 0 ABS 0 - -
-_Lcd_Init 49A 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
-_Lcd_Out2 B6C 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
+_Lcd_Init 4A2 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
+_Lcd_Out2 B74 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
 _PWM3CON 619 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _PWM3DCH 618 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _PWM3DCL 617 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 _T1CONbits 18 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 __L__absolute__ 0 0 ABS 0 __absolute__ -
-__end_of_Lcd_Init 5CC 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
-__end_of_Lcd_Out2 BEE 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
+__end_of_Lcd_Init 5D4 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
+__end_of_Lcd_Out2 BF6 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
 ?_abs 77 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 __Hstrings 0 0 ABS 0 strings -
 ?_vfprintf 44 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
@@ -591,9 +594,9 @@ _TMR2 1A 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _WPUB 20D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-___sp 0 0 STACK 2 stack C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
+___sp 0 0 STACK 2 stack C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
 _dbuf A4 0 BANK1 1 bssBANK1 dist/default/production\TMR1Counter.production.o
-_dtoa 1F2 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
+_dtoa 1FA 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
 _main 7C 0 CODE 0 maintext dist/default/production\TMR1Counter.production.o
 _prec 67 0 BANK0 1 bssBANK0 dist/default/production\TMR1Counter.production.o
 abs@a 77 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
@@ -605,31 +608,31 @@ pad@p 7C 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.
 pad@w 27 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 Lcd_Out2@x 73 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 Lcd_Out2@y 77 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-start 50 0 CODE 0 init C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-__end_of_PWM3_LoadDutyValue DA2 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
+start 50 0 CODE 0 init C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+__end_of_PWM3_LoadDutyValue DAA 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
 pad@fp 29 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 ?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-__end_of_vfpfcnvrt 49A 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
+__end_of_vfpfcnvrt 4A2 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
 ___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-_TMR2_Initialize E04 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
+_TMR2_Initialize E0C 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
 Lcd_Chr_CP@data 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 PWM3_LoadDutyValue@dutyValue 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _OSCCONbits 99 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-_Lcd_Chr_CP 5CC 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
-_PWM3_LoadDutyValue D76 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
+_Lcd_Chr_CP 5D4 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
+_PWM3_LoadDutyValue D7E 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 ___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
-_vfpfcnvrt 364 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
+_vfpfcnvrt 36C 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
 dtoa@fp 2F 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 ___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _ANSELA 18C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
@@ -637,20 +640,20 @@ _ANSELB 18D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _ANSELC 18E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 ___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _BORCON 116 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-__end_of___wmul CD0 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
+__end_of___wmul CD8 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
 __Lmaintext 0 0 ABS 0 maintext -
 ___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-__end_of___awdiv 99C 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
-__end_of___awmod A42 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
+__end_of___awdiv 9A4 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
+__end_of___awmod A4A 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
 Lcd_Out2@buffer 74 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _INLVLA 38C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _INLVLB 38D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _OPTION_REG 95 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-___stacklo 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-__end_of_Lcd_Chr_CP 6F8 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
-_PIN_MANAGER_Initialize BEE 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
+___stackhi 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+___stacklo 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+__end_of_Lcd_Chr_CP 700 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
+_PIN_MANAGER_Initialize BF6 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
 start_initialization 54 0 CODE 0 cinit dist/default/production\TMR1Counter.production.o
 _ODCONA 28C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _ODCONB 28D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
@@ -659,15 +662,15 @@ _CCPTMRSbits 29E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _TRISCbits 8E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _RC6PPS EA6 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-__end_of_SYSTEM_Initialize DBC 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
+__end_of_SYSTEM_Initialize DC4 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
 _ISR_TIMER0 8 0 CODE 0 intentry dist/default/production\TMR1Counter.production.o
-clear_ram0 E3E 0 CODE 0 clrtext dist/default/production\TMR1Counter.production.o
+clear_ram0 E46 0 CODE 0 clrtext dist/default/production\TMR1Counter.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 _T2CLKCON 1E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 fputc@fp 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 fputs@fp 78 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-__end_of_PWM3_Initialize E30 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+__end_of_PWM3_Initialize E38 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -727,7 +730,7 @@ __Hbank31 0 0 BANK31 1 bank31 -
 ?_read_prec_or_width 76 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 __Hbigram 0 0 ABS 0 bigram -
 __Hmaintext 0 0 ABS 0 maintext -
-__end_of_sprintf D0A 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
+__end_of_sprintf D12 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 10014 0 CONFIG 4 config -
 _T2HLTbits 1D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
@@ -797,31 +800,31 @@ __Lsfr7 0 0 ABS 0 sfr7 -
 __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
-__pstringtext1 DBC 0 STRCODE 0 stringtext1 dist/default/production\TMR1Counter.production.o
-__pstringtext2 DD4 0 STRCODE 0 stringtext2 dist/default/production\TMR1Counter.production.o
+__pstringtext1 DC4 0 STRCODE 0 stringtext1 dist/default/production\TMR1Counter.production.o
+__pstringtext2 DDC 0 STRCODE 0 stringtext2 dist/default/production\TMR1Counter.production.o
 __pstringtext3 0 0 STRCODE 0 stringtext3 dist/default/production\TMR1Counter.production.o
-___wmul C92 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
+___wmul C9A 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 int$flags 7E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 _PR2 1B 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _TMR 6B 0 BANK0 1 bssBANK0 dist/default/production\TMR1Counter.production.o
-__S0 72A 0 ABS 0 - -
+__S0 72E 0 ABS 0 - -
 __S1 EC 0 ABS 0 - -
-_abs D42 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
-_pad AE2 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
+_abs D4A 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
+_pad AEA 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
 __end_of_ISR_TIMER0 50 0 CODE 0 intentry dist/default/production\TMR1Counter.production.o
-_TMR1_Counter E4A 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
+_TMR1_Counter E52 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
 _T2RSTbits 1F 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-_PWM3_Initialize E1A 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
+_PWM3_Initialize E22 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
 sprintf@fmt 4B 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-_SYSTEM_Initialize DA2 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
+_SYSTEM_Initialize DAA 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
 _dtoa$1067 2D 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-__end_of_abs D76 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
-__end_of_pad B6C 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
+__end_of_abs D7E 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
+__end_of_pad B74 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-__end_of_Lcd_Cmd 81E 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+__end_of_Lcd_Cmd 826 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
 __Lstringtext1 0 0 ABS 0 stringtext1 -
@@ -830,25 +833,25 @@ __Lstringtext3 0 0 ABS 0 stringtext3 -
 vfpfcnvrt@fmt 37 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 ___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 pad@buf 7B 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-__ptext10 E52 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
-__ptext11 D42 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
-__ptext12 99C 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
-__ptext13 8DE 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
-__ptext14 E4A 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
-__ptext15 DEC 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
-__ptext16 DA2 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
-__ptext17 E04 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
-__ptext18 E1A 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
-__ptext19 BEE 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
-__ptext20 E30 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
-__ptext21 D76 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
-__ptext22 B6C 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
-__ptext23 5CC 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
-__ptext24 49A 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
-__ptext25 6F8 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
-__end_of_PIN_MANAGER_Initialize C4A 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
-___awdiv 8DE 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
-___awmod 99C 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
+__ptext10 E5A 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
+__ptext11 D4A 0 CODE 0 text11 dist/default/production\TMR1Counter.production.o
+__ptext12 9A4 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
+__ptext13 8E6 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
+__ptext14 E52 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
+__ptext15 DF4 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
+__ptext16 DAA 0 CODE 0 text16 dist/default/production\TMR1Counter.production.o
+__ptext17 E0C 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
+__ptext18 E22 0 CODE 0 text18 dist/default/production\TMR1Counter.production.o
+__ptext19 BF6 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
+__ptext20 E38 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
+__ptext21 D7E 0 CODE 0 text21 dist/default/production\TMR1Counter.production.o
+__ptext22 B74 0 CODE 0 text22 dist/default/production\TMR1Counter.production.o
+__ptext23 5D4 0 CODE 0 text23 dist/default/production\TMR1Counter.production.o
+__ptext24 4A2 0 CODE 0 text24 dist/default/production\TMR1Counter.production.o
+__ptext25 700 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
+__end_of_PIN_MANAGER_Initialize C52 0 CODE 0 text19 dist/default/production\TMR1Counter.production.o
+___awdiv 8E6 0 CODE 0 text13 dist/default/production\TMR1Counter.production.o
+___awmod 9A4 0 CODE 0 text12 dist/default/production\TMR1Counter.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
 __Lbank12 0 0 ABS 0 bank12 -
@@ -877,8 +880,8 @@ __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 ___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 _LATBbits 10D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-__end_of_read_prec_or_width 8DE 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
-__end_of_TMR1_Counter E52 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
+__end_of_read_prec_or_width 8E6 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
+__end_of_TMR1_Counter E5A 0 CODE 0 text14 dist/default/production\TMR1Counter.production.o
 _OSCTUNE 98 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
@@ -894,7 +897,7 @@ _buffer1 D8 0 BANK1 1 bssBANK1 dist/default/production\TMR1Counter.production.o
 _buffer2 C4 0 BANK1 1 bssBANK1 dist/default/production\TMR1Counter.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 end_of_initialization 74 0 CODE 0 cinit dist/default/production\TMR1Counter.production.o
-_read_prec_or_width 81E 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
+_read_prec_or_width 826 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
 __Hintentry 50 0 CODE 0 intentry -
 fputc@c 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 fputs@c 20 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
@@ -910,26 +913,26 @@ __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
 _T0CKIPPS E11 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 ___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-_TMR0_Timer DEC 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
+_TMR0_Timer DF4 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
 vfpfcnvrt@ap 38 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 vfpfcnvrt@cp 42 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 vfpfcnvrt@fp 41 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-__ptext1 CD0 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
-__ptext2 D0A 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
-__ptext3 364 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
-__ptext4 81E 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
-__ptext5 C92 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
-__ptext6 1F2 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
-__ptext7 AE2 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
-__ptext8 C4A 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
-__ptext9 A42 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
+__ptext1 CD8 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
+__ptext2 D12 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
+__ptext3 36C 0 CODE 0 text3 dist/default/production\TMR1Counter.production.o
+__ptext4 826 0 CODE 0 text4 dist/default/production\TMR1Counter.production.o
+__ptext5 C9A 0 CODE 0 text5 dist/default/production\TMR1Counter.production.o
+__ptext6 1FA 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
+__ptext7 AEA 0 CODE 0 text7 dist/default/production\TMR1Counter.production.o
+__ptext8 C52 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
+__ptext9 A4A 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
 vfprintf@ap 46 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 vfprintf@fp 48 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 vfprintf@cfmt 49 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-_sprintf CD0 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
+_sprintf CD8 0 CODE 0 text1 dist/default/production\TMR1Counter.production.o
 Lcd_Out2@data 78 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 Lcd_Cmd@data 72 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-_vfprintf D0A 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
+_vfprintf D12 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 sprintf@ap 52 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
@@ -938,12 +941,12 @@ __Lreset_vec 0 0 CODE 0 reset_vec -
 __Hstringtext1 0 0 ABS 0 stringtext1 -
 __Hstringtext2 0 0 ABS 0 stringtext2 -
 __Hstringtext3 0 0 ABS 0 stringtext3 -
-__end_of_vfprintf D42 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
+__end_of_vfprintf D4A 0 CODE 0 text2 dist/default/production\TMR1Counter.production.o
 _SLRCONA 30C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _SLRCONB 30D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _SLRCONC 30E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
-___heap_lo 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAshj4.\driver_tmp_17.o
+___heap_hi 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
+___heap_lo 0 0 ABS 0 - C:\Users\Arturo\AppData\Local\Temp\xcAs42s.\driver_tmp_17.o
 __end_of__initialization 74 0 CODE 0 cinit dist/default/production\TMR1Counter.production.o
 ___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
@@ -953,11 +956,11 @@ Lcd_Init@data 74 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.pro
 __Hend_init 54 0 CODE 0 end_init -
 sprintf@f 54 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 sprintf@s 53 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-__end_of_TMR0_Timer E04 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
-__end_of_dtoa 364 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
-__end_of_main 1F2 0 CODE 0 maintext dist/default/production\TMR1Counter.production.o
-__end_of_fputc AE2 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
-__end_of_fputs C92 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
+__end_of_TMR0_Timer E0C 0 CODE 0 text15 dist/default/production\TMR1Counter.production.o
+__end_of_dtoa 36C 0 CODE 0 text6 dist/default/production\TMR1Counter.production.o
+__end_of_main 1FA 0 CODE 0 maintext dist/default/production\TMR1Counter.production.o
+__end_of_fputc AEA 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
+__end_of_fputs C9A 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
 ?_sprintf 4B 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 _PORTA C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _PORTB D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
@@ -973,18 +976,18 @@ _TMR1L 16 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _TRISA 8C 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _TRISB 8D 0 ABS 0 - dist/default/production\TMR1Counter.production.o
 _TRISC 8E 0 ABS 0 - dist/default/production\TMR1Counter.production.o
-__end_of_putch E54 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
+__end_of_putch E5C 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 _flags 6F 0 BANK0 1 bssBANK0 dist/default/production\TMR1Counter.production.o
-_fputc A42 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
-_fputs C4A 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
-_putch E52 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
+_fputc A4A 0 CODE 0 text9 dist/default/production\TMR1Counter.production.o
+_fputs C52 0 CODE 0 text8 dist/default/production\TMR1Counter.production.o
+_putch E5A 0 CODE 0 text10 dist/default/production\TMR1Counter.production.o
 read_prec_or_width@fmt 23 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 _width 65 0 BANK0 1 bssBANK0 dist/default/production\TMR1Counter.production.o
 __pintentry 8 0 CODE 0 intentry dist/default/production\TMR1Counter.production.o
-_Lcd_Cmd 6F8 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
-__end_of_OSCILLATOR_Initialize E3E 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
+_Lcd_Cmd 700 0 CODE 0 text25 dist/default/production\TMR1Counter.production.o
+__end_of_OSCILLATOR_Initialize E46 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
 __initialization 54 0 CODE 0 cinit dist/default/production\TMR1Counter.production.o
 __pbssBANK0 65 0 BANK0 1 bssBANK0 dist/default/production\TMR1Counter.production.o
 __pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\TMR1Counter.production.o
@@ -996,9 +999,9 @@ dtoa@i 34 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 dtoa@p 30 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 dtoa@s 36 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
 dtoa@w 32 0 BANK0 1 cstackBANK0 dist/default/production\TMR1Counter.production.o
-_OSCILLATOR_Initialize E30 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
+_OSCILLATOR_Initialize E38 0 CODE 0 text20 dist/default/production\TMR1Counter.production.o
 read_prec_or_width@ap 76 0 COMMON 1 cstackCOMMON dist/default/production\TMR1Counter.production.o
-__end_of_TMR2_Initialize E1A 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
+__end_of_TMR2_Initialize E22 0 CODE 0 text17 dist/default/production\TMR1Counter.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1024,11 +1027,11 @@ __end_of_TMR2_Initialize E1A 0 CODE 0 text17 dist/default/production\TMR1Counter
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text15 0 6F6 DEC 34 2
+text15 0 6FA DF4 34 2
 cstackCOMMON 1 70 70 E 1
 cstackBANK0 1 20 20 50 1
-stringtext1 0 6DE DBC 18 2
-intentry 0 4 8 6DA 2
+stringtext1 0 6E2 DC4 18 2
+intentry 0 4 8 6DE 2
 reset_vec 0 0 0 2 2
 bssBANK1 1 A0 A0 4C 1
 # %NOTES Section

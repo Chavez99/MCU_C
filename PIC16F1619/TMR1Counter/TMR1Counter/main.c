@@ -85,6 +85,9 @@ void main(void) {
         PWM3_LoadDutyValue(DC);
         TIMER = 0;
         TMR = 0;
+        TMR1 = 0;
+        TMR1L = 0;
+        TMR1H = 0;
         T1CONbits.TMR1ON = 1;
         __delay_ms(1000); //Wait.
         TMR = TMR1H;

@@ -126,7 +126,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 "129 ./mcc_generated_files/pwm3.h
 [; ;./mcc_generated_files/pwm3.h: 129:  void PWM3_LoadDutyValue(uint16_t dutyValue);
 [v _PWM3_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
-"941 ../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h
+"895 ../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h
+[; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 895: extern volatile unsigned char TMR1L __attribute__((address(0x016)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@22 ]
+"915
+[; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 915: extern volatile unsigned char TMR1H __attribute__((address(0x017)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@23 ]
+"941
 [; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 941:     struct {
 [s S56 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :2 `uc 1 ]
 [n S56 . TMR1ON . nT1SYNC . T1CKPS TMR1CS ]
@@ -141,12 +147,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "957
 [; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 957: extern volatile T1CONbits_t T1CONbits __attribute__((address(0x018)));
 [v _T1CONbits `VS55 ~T0 @X0 0 e@24 ]
-"915
-[; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 915: extern volatile unsigned char TMR1H __attribute__((address(0x017)));
-[v _TMR1H `Vuc ~T0 @X0 0 e@23 ]
-"895
-[; ;../../../../../../../../../../Program Files/Microchip/xc8/v2.41/pic/include/proc\pic16f1619.h: 895: extern volatile unsigned char TMR1L __attribute__((address(0x016)));
-[v _TMR1L `Vuc ~T0 @X0 0 e@22 ]
 "111 C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\stdio.h
 [; ;C:\Program Files\Microchip\xc8\v2.41\pic\include\c99\stdio.h: 111: int sprintf(char *restrict, const char *restrict, ...);
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
@@ -2086,79 +2086,88 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 68:     DC = 63;
 [e ( _TMR1_Counter ..  ]
 "76
-[; ;main.c: 76:         TMR = TMR1H;
+[; ;main.c: 76:         TMR1H = 0;
 [e ( _Lcd_Init ..  ]
 "77
-[; ;main.c: 77:         TMR = TMR<<8;
+[; ;main.c: 77:         T1CONbits.TMR1ON = 1;
 [e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "78
-[; ;main.c: 78:         TMR = TMR + TMR1L;
+[; ;main.c: 78:         _delay((unsigned long)((1000)*(4000000/4000.0)));
 [e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
 "79
-[; ;main.c: 79:         T1CONbits.TMR1ON = 0;
+[; ;main.c: 79:         TMR = TMR1H;
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "81
-[; ;main.c: 81:         TMR1L = 0;
+[; ;main.c: 81:         TMR = TMR + TMR1L;
 [v _DC `us ~T0 @X0 1 a ]
 "82
-[; ;main.c: 82:         TMR1H = 0;
+[; ;main.c: 82:         T1CONbits.TMR1ON = 0;
 [e = _DC -> -> 63 `i `us ]
 "84
-[; ;main.c: 84: 
+[; ;main.c: 84:         TMR1L = 0;
 [e :U 1250 ]
 {
 "85
-[; ;main.c: 85:         sprintf((char *)buffer1,"Cuenta: %5d", TIMER);
+[; ;main.c: 85:         TMR1H = 0;
 [e ( _PWM3_LoadDutyValue (1 _DC ]
 "86
-[; ;main.c: 86:         sprintf((char *)buffer2,"H:%2d L:%2d", TMR1H, TMR1L);
+[; ;main.c: 86:         TIMER = TMR;
 [e = _TIMER -> -> 0 `i `ui ]
 "87
-[; ;main.c: 87:         Lcd_Out2(1,1,(char *)buffer1);
+[; ;main.c: 87: 
 [e = _TMR -> -> 0 `i `ui ]
 "88
-[; ;main.c: 88:         Lcd_Out2(2,1,(char *)buffer2);
-[e = . . _T1CONbits 0 0 -> -> 1 `i `uc ]
-"89
-[; ;main.c: 89:         _delay((unsigned long)((1000)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
-"90
-[; ;main.c: 90:     }
-[e = _TMR -> _TMR1H `ui ]
-"91
-[; ;main.c: 91:  return;
-[e = _TMR << _TMR -> 8 `i ]
-"92
-[; ;main.c: 92: }
-[e = _TMR + _TMR -> _TMR1L `ui ]
-"93
-[e = . . _T1CONbits 0 0 -> -> 0 `i `uc ]
-"94
+[; ;main.c: 88:         sprintf((char *)buffer1,"Cuenta: %5d", TIMER);
 [e = _TMR1 -> -> 0 `i `us ]
-"95
+"89
+[; ;main.c: 89:         sprintf((char *)buffer2,"H:%2d L:%2d", TMR1H, TMR1L);
 [e = _TMR1L -> -> 0 `i `uc ]
-"96
+"90
+[; ;main.c: 90:         Lcd_Out2(1,1,(char *)buffer1);
 [e = _TMR1H -> -> 0 `i `uc ]
-"97
-[e = _TIMER _TMR ]
-"99
-[e ( _sprintf (1 , (. , -> &U _buffer1 `*uc :s 1C _TIMER ]
-"100
-[e ( _sprintf (1 , , (. , -> &U _buffer2 `*uc :s 2C -> _TMR1H `i -> _TMR1L `i ]
-"101
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _buffer1 `*uc ]
-"102
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc -> &U _buffer2 `*uc ]
-"103
+"91
+[; ;main.c: 91:         Lcd_Out2(2,1,(char *)buffer2);
+[e = . . _T1CONbits 0 0 -> -> 1 `i `uc ]
+"92
+[; ;main.c: 92:         _delay((unsigned long)((1000)*(4000000/4000.0)));
 [e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"93
+[; ;main.c: 93:     }
+[e = _TMR -> _TMR1H `ui ]
+"94
+[; ;main.c: 94:  return;
+[e = _TMR << _TMR -> 8 `i ]
+"95
+[; ;main.c: 95: }
+[e = _TMR + _TMR -> _TMR1L `ui ]
+"96
+[e = . . _T1CONbits 0 0 -> -> 0 `i `uc ]
+"97
+[e = _TMR1 -> -> 0 `i `us ]
+"98
+[e = _TMR1L -> -> 0 `i `uc ]
+"99
+[e = _TMR1H -> -> 0 `i `uc ]
+"100
+[e = _TIMER _TMR ]
+"102
+[e ( _sprintf (1 , (. , -> &U _buffer1 `*uc :s 1C _TIMER ]
+"103
+[e ( _sprintf (1 , , (. , -> &U _buffer2 `*uc :s 2C -> _TMR1H `i -> _TMR1L `i ]
 "104
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _buffer1 `*uc ]
+"105
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc -> &U _buffer2 `*uc ]
+"106
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"107
 }
 [e :U 1249 ]
 [e $U 1250  ]
 [e :U 1251 ]
-"105
+"108
 [e $UE 1248  ]
-"106
+"109
 [e :UE 1248 ]
 }
 [p f _sprintf 8421504 ]

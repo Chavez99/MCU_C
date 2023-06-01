@@ -17587,6 +17587,9 @@ void main(void) {
         PWM3_LoadDutyValue(DC);
         TIMER = 0;
         TMR = 0;
+        TMR1 = 0;
+        TMR1L = 0;
+        TMR1H = 0;
         T1CONbits.TMR1ON = 1;
         _delay((unsigned long)((1000)*(4000000/4000.0)));
         TMR = TMR1H;
