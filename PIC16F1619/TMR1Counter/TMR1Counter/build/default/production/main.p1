@@ -2095,13 +2095,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 78:         TMR = TMR + TMR1L;
 [e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
 "79
-[; ;main.c: 79:         TMR1 = 0;
+[; ;main.c: 79:         T1CONbits.TMR1ON = 0;
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "81
-[; ;main.c: 81:         TMR1H = 0;
+[; ;main.c: 81:         TMR1L = 0;
 [v _DC `us ~T0 @X0 1 a ]
 "82
-[; ;main.c: 82:         TIMER = TMR;
+[; ;main.c: 82:         TMR1H = 0;
 [e = _DC -> -> 63 `i `us ]
 "84
 [; ;main.c: 84: 
@@ -2132,15 +2132,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 92: }
 [e = _TMR + _TMR -> _TMR1L `ui ]
 "93
-[e = _TMR1 -> -> 0 `i `us ]
-"94
-[e = _TMR1L -> -> 0 `i `uc ]
-"95
-[e = _TMR1H -> -> 0 `i `uc ]
-"96
-[e = _TIMER _TMR ]
-"97
 [e = . . _T1CONbits 0 0 -> -> 0 `i `uc ]
+"94
+[e = _TMR1 -> -> 0 `i `us ]
+"95
+[e = _TMR1L -> -> 0 `i `uc ]
+"96
+[e = _TMR1H -> -> 0 `i `uc ]
+"97
+[e = _TIMER _TMR ]
 "99
 [e ( _sprintf (1 , (. , -> &U _buffer1 `*uc :s 1C _TIMER ]
 "100

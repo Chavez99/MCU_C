@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.41 build 20230208172133 
-                                                                                               Thu Jun 01 14:39:06 2023
+                                                                                               Thu Jun 01 14:47:23 2023
 
 Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1 
      1                           	processor	16F1619
@@ -2995,7 +2995,7 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   2976     0067  3183  237C  3180   	fcall	_Lcd_Cmd
   2977     006A                     l2058:
   2978                           
-  2979                           ;main.c: 79:         TMR1 = 0;
+  2979                           ;main.c: 79:         T1CONbits.TMR1ON = 0;
   2980     006A  3082               	movlw	130
   2981     006B  0020               	movlb	0	; select bank0
   2982     006C  00DF               	movwf	??_main
@@ -3008,7 +3008,7 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   2989     0072  3200               	nop2
   2990     0073                     l2060:
   2991                           
-  2992                           ;main.c: 81:         TMR1H = 0;;main.c: 82:         TIMER = TMR;
+  2992                           ;main.c: 81:         TMR1L = 0;;main.c: 82:         TMR1H = 0;
   2993     0073  303F               	movlw	63
   2994     0074  0020               	movlb	0	; select bank0
   2995     0075  00E3               	movwf	main@DC
@@ -3091,19 +3091,19 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   3072     00AB  0860               	movf	??_main+1,w
   3073     00AC  00EC               	movwf	_TMR+1
   3074     00AD                     l2078:
-  3075     00AD  0196               	clrf	22	;volatile
-  3076     00AE  0197               	clrf	23	;volatile
-  3077     00AF                     l2080:
-  3078     00AF  0196               	clrf	22	;volatile
+  3075     00AD  1018               	bcf	24,0	;volatile
+  3076     00AE                     l2080:
+  3077     00AE  0196               	clrf	22	;volatile
+  3078     00AF  0197               	clrf	23	;volatile
   3079     00B0                     l2082:
-  3080     00B0  0197               	clrf	23	;volatile
+  3080     00B0  0196               	clrf	22	;volatile
   3081     00B1                     l2084:
-  3082     00B1  086C               	movf	_TMR+1,w
-  3083     00B2  00EA               	movwf	_TIMER+1
-  3084     00B3  086B               	movf	_TMR,w
-  3085     00B4  00E9               	movwf	_TIMER
-  3086     00B5                     l2086:
-  3087     00B5  1018               	bcf	24,0	;volatile
+  3082     00B1  0197               	clrf	23	;volatile
+  3083     00B2                     l2086:
+  3084     00B2  086C               	movf	_TMR+1,w
+  3085     00B3  00EA               	movwf	_TIMER+1
+  3086     00B4  086B               	movf	_TMR,w
+  3087     00B5  00E9               	movwf	_TIMER
   3088     00B6                     l2088:
   3089     00B6  30EA               	movlw	low (STR_1| (0+32768))
   3090     00B7  00CB               	movwf	sprintf@fmt
@@ -7354,7 +7354,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.41 build 20230208172133 
-Symbol Table                                                                                   Thu Jun 01 14:39:06 2023
+Symbol Table                                                                                   Thu Jun 01 14:47:23 2023
 
                              _i 006D                              l11 0717                              l14 06D0  
                             l41 070C                              l98 06DD                    ___awdiv@sign 0076  
@@ -7397,7 +7397,7 @@ Symbol Table                                                                    
                           l2036 0052                            l2028 004C                            l2118 05D0  
                           l2070 0086                            l2062 0078                            l2054 0062  
                           l2046 0058                            l2038 0054                            l1600 04B3  
-                          l2080 00AF                            l2072 0093                            l2064 0080  
+                          l2080 00AE                            l2072 0093                            l2064 0080  
                           l2056 0066                            l2048 0059                            l1610 04C9  
                           l1602 04B4                            l2090 00C2                            l2082 00B0  
                           l2074 009B                            l2066 0083                            l2058 006A  
@@ -7407,7 +7407,7 @@ Symbol Table                                                                    
                           l1606 04BF                            l1630 04EC                            l1622 04DA  
                           l1614 04CE                            l1542 0558                            l1534 0526  
                           l1550 062A                            l1710 0182                            l1702 015B  
-                          l2094 00E1                            l2086 00B5                            l2078 00AD  
+                          l2094 00E1                            l2086 00B2                            l2078 00AD  
                           l1800 0600                            l1608 04C4                            l1640 0507  
                           l1632 04F1                            l1624 04DE                            l1616 04CF  
                           l1544 0567                            l1536 052B                            l1552 0636  

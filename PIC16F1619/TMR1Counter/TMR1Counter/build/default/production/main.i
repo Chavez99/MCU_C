@@ -17592,11 +17592,11 @@ void main(void) {
         TMR = TMR1H;
         TMR = TMR<<8;
         TMR = TMR + TMR1L;
+        T1CONbits.TMR1ON = 0;
         TMR1 = 0;
         TMR1L = 0;
         TMR1H = 0;
         TIMER = TMR;
-        T1CONbits.TMR1ON = 0;
 
         sprintf((char *)buffer1,"Cuenta: %5d", TIMER);
         sprintf((char *)buffer2,"H:%2d L:%2d", TMR1H, TMR1L);

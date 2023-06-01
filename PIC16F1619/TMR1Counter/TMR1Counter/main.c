@@ -90,11 +90,11 @@ void main(void) {
         TMR = TMR1H;
         TMR = TMR<<8;
         TMR = TMR + TMR1L;
+        T1CONbits.TMR1ON = 0;
         TMR1 = 0;
         TMR1L = 0;
         TMR1H = 0;
-        TIMER = TMR;
-        T1CONbits.TMR1ON = 0;
+        TIMER = TMR;//Change to int variable so as to show on LCD
         //ADRESH content is shifted 8 bits to the right, but can also be multiplied by 255d
         sprintf((char *)buffer1,"Cuenta: %5d", TIMER);
         sprintf((char *)buffer2,"H:%2d L:%2d", TMR1H, TMR1L);
